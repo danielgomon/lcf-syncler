@@ -2,7 +2,7 @@
   "_manifest": {
     "name": "LCF Movies/Series 1080p/4k Package",
     "id": "lcf.series.movies.syncler.ml",
-    "version": "10",
+    "version": "11",
     "classPath": "",
     "permaUrl": "https://raw.githubusercontent.com/danielgomon/lcf-syncler/main/lcf-movies-series-provider.json"
   },
@@ -76,7 +76,7 @@
       "\"": ""
     }
   },
-  "torrentapi_1080p": {
+  "torrentapi_1080p_4k": {
     "name": "RARBG",
     "enabled": true,
     "languages": [
@@ -145,6 +145,14 @@
       "query": "/?f=0&c=1_0&q={query}&s=seeders&o=desc",
       "keywords": "{title} {year}"
     },
+    "episode": {
+      "query": "",
+      "keywords":  ""
+    },
+    "season": {
+      "query": "",
+      "keywords":  ""
+    },
     "anime": {
       "query": "/?f=0&c=1_0&q={query}&s=seeders&o=desc",
       "keywords": [
@@ -189,6 +197,14 @@
     "movie": {
       "query": "/search?q={query}&category:Anime&s=sz&v=t&sd=",
       "keywords": "{title}"
+    },
+    "episode": {
+      "query": "",
+      "keywords":  ""
+    },
+    "season": {
+      "query": "",
+      "keywords":  ""
     },
     "anime": {
       "query": "/search?q={query}",
