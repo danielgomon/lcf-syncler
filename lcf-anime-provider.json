@@ -2,12 +2,12 @@
   "_manifest": {
     "name": "LCF Anime Package",
     "id": "lcf.anime.syncler.ml",
-    "version": "18",
+    "version": "19",
     "classPath": "",
     "permaUrl": "https://raw.githubusercontent.com/danielgomon/lcf-syncler/main/lcf-anime-provider.json"
   },
   "nyaa_absolute": {
-    "name": "Nyaa",
+    "name": "NyaaFIXED",
     "enabled": true,
     "languages": [
       "en"
