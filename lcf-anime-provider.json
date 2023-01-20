@@ -2,7 +2,7 @@
   "_manifest": {
     "name": "LCF Anime Package",
     "id": "lcf.anime.syncler.ml",
-    "version": "23",
+    "version": "24",
     "classPath": "",
     "permaUrl": "https://raw.githubusercontent.com/danielgomon/lcf-syncler/main/lcf-anime-provider.json"
   },
@@ -23,14 +23,13 @@
       "query": "/?f=0&c=1_0&q={query}&s=seeders&o=desc",
       "keywords": [
         "{title} {seasonCode}",
-        "{title} season"
+        "{title} season",
       ]
     },
     "anime": {
       "query": "/?f=0&c=1_0&q={query}&s=seeders&o=desc",
       "keywords": [
         "{title} {episode}",
-        "{title} {episode} 1080p",
         "{title} {absoluteNumber}",
         "{title} {episodeCode}"
       ]
@@ -39,7 +38,7 @@
     "html_parser": {
       "row": "doc.querySelectorAll('.torrent-list tbody tr')",
       "title": "row.querySelector('td:nth-child(2) a:last-child').textContent",
-      "peers": "row.querySelector('td:nth-child(6)').textContent",
+      "peers": "row.querySelector('td:nth-child(7)').textContent",
       "seeds": "row.querySelector('td:nth-child(6)').textContent",
       "size": "row.querySelector('td:nth-child(4)').textContent",
       "url": "row.querySelector('td:nth-child(3) a:nth-child(2)').getAttribute('href')"
