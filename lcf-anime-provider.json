@@ -45,5 +45,9 @@
       "url": "row.querySelector('td:nth-child(3) a:nth-child(2)').getAttribute('href')"
     },
     "source_is_in_sub_page": false,
+    "title_replacement": {
+      "'s": "s",
+      "\"": ""
+    }
   }
 }
