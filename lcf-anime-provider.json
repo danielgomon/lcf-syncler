@@ -2,7 +2,7 @@
   "_manifest": {
     "name": "LCF Anime Package",
     "id": "lcf.anime.syncler.ml",
-    "version": "24",
+    "version": "23",
     "classPath": "",
     "permaUrl": "https://raw.githubusercontent.com/danielgomon/lcf-syncler/main/lcf-anime-provider.json"
   },
