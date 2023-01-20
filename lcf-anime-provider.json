@@ -39,6 +39,7 @@
     "html_parser": {
       "row": "doc.querySelectorAll('.torrent-list tbody tr')",
       "title": "row.querySelector('td:nth-child(2) a:last-child').textContent",
+      "peers": "row.querySelector('td:nth-child(6)').textContent",
       "seeds": "row.querySelector('td:nth-child(6)').textContent",
       "size": "row.querySelector('td:nth-child(4)').textContent",
       "url": "row.querySelector('td:nth-child(3) a:nth-child(2)').getAttribute('href')"
