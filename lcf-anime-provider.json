@@ -92,7 +92,7 @@
       "&": ""
     }
   },
-  "nyaa_episodeCode ": {
+  "nyaa_episodeCode": {
     "name": "NyaaEpisodeCode",
     "enabled": true,
     "languages": [
