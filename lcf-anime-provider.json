@@ -2,7 +2,7 @@
   "_manifest": {
     "name": "LCF Anime Package",
     "id": "lcf.anime.syncler.ml",
-    "version": "27",
+    "version": "28",
     "classPath": "",
     "permaUrl": "https://raw.githubusercontent.com/danielgomon/lcf-syncler/main/lcf-anime-provider.json"
   },
@@ -35,10 +35,7 @@
     },
     "anime": {
       "query": "/?f=0&c=0_0&q={query}&s=seeders&o=desc",
-      "keywords": [
-        "{title} {episode}",
-        "{title} {episodeCode}"
-      ]
+      "keywords": "{title} {absoluteNumber}"
     },
     "separator": "+",
     "html_parser": {
