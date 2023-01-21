@@ -42,7 +42,11 @@
     "source_is_in_sub_page": false,
     "title_replacement": {
       "'s": "s",
-      "\"": ""
+      "\"": "",
+      ".": "",
+      ":": "",
+      "'": "",
+      "&": ""
     }
   }
 }
