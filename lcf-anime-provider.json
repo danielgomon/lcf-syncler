@@ -2,7 +2,7 @@
   "_manifest": {
     "name": "LCF Anime Package",
     "id": "lcf.anime.syncler.ml",
-    "version": "33",
+    "version": "34",
     "classPath": "",
     "permaUrl": "https://raw.githubusercontent.com/danielgomon/lcf-syncler/main/lcf-anime-provider.json"
   },
@@ -13,7 +13,9 @@
       "en"
     ],
     "base_url": "https://nyaa.si",
-    "fallback_urls": ["https://nya.iss.one"],
+    "fallback_urls": [
+      "https://nya.iss.one"
+    ],
     "response_type": "text",
     "movie": {
       "query": "/?f=0&c=1_0&q={query}&s=seeders&o=desc",
@@ -56,7 +58,9 @@
       "en"
     ],
     "base_url": "https://nyaa.si",
-    "fallback_urls": ["https://nya.iss.one"],
+    "fallback_urls": [
+      "https://nya.iss.one"
+    ],
     "response_type": "text",
     "movie": {
       "query": "/?f=0&c=1_0&q={query}&s=seeders&o=desc",
@@ -99,7 +103,9 @@
       "en"
     ],
     "base_url": "https://nyaa.si",
-    "fallback_urls": ["https://nya.iss.one"],
+    "fallback_urls": [
+      "https://nya.iss.one"
+    ],
     "response_type": "text",
     "movie": {
       "query": "/?f=0&c=1_0&q={query}&s=seeders&o=desc",
